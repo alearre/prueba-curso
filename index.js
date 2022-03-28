@@ -7,8 +7,8 @@ app.get('/buenos', (req, res) =>{
     res.send('ruta Buenos Dias');
 });
 
-app.get('/adios', (req, res) => {
-    res.send('ruta Adios');
+app.get('/hasta', (req, res) => {
+    res.send('ruta Hasta luego');
 });
 
 app.listen(3000, ()=>{
